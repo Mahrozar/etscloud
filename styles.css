@@ -1,0 +1,54 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f0f0;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #800000; /* Maroon */
+    margin-bottom: 30px;
+}
+
+.produk-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.produk-item {
+    background-color: #ffffff;
+    border: 2px solid #800000; /* Maroon border */
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    width: 220px;
+    box-shadow: 0 4px 8px rgba(128, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.produk-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(128, 0, 0, 0.4);
+}
+
+.produk-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.produk-item h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #800000; /* Maroon */
+}
+
+.produk-item p {
+    color: #555;
+    font-size: 14px;
+    margin: 8px 0;
+}
