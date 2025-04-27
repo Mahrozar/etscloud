@@ -58,7 +58,7 @@ try {
             </div>
         <?php endforeach; ?>
     <?php else: ?>
-        <p>Belum ada produk tersedia.</p>
+        <p>Belum ada produk tersedia</p>
     <?php endif; ?>
 </div>
 
