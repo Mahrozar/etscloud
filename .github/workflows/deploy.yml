@@ -20,7 +20,7 @@ jobs:
 
     - name: Deploy to ECS
       run: |
-        ssh -o StrictHostKeyChecking=no ec2-user@13.213.61.165 << 'EOF'
+        ssh -o StrictHostKeyChecking=no ec2-user@44-202-158-152 << 'EOF'
           cd /var/www/html
           git pull origin master
           # Restart Nginx or any other service if needed
